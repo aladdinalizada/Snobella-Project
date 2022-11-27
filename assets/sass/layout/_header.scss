@@ -1,0 +1,160 @@
+#header {
+  .container {
+    width: 100%;
+
+    .telephone {
+
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    
+      background-color: $bg-color;
+
+      .icon {
+        .fa-solid {
+          color: white;
+          padding-right: 8px;
+        }
+        span {
+          color: white;
+        }
+      }
+
+      nav {
+        
+        ul {
+          display: flex;
+          column-gap: 20px;
+
+          li {
+            list-style: none;
+            color: white;
+          }
+
+          span {
+            border-right: 1px solid white;
+          }
+        }
+      }
+      @media (max-width: 992px) {
+        flex-direction: column;
+        row-gap: 20px;
+      }
+    }
+    .snobella {
+      padding: 10px;
+      .snobella1 {
+        // padding: 10px;
+        padding: 15px 0 15px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        h1{
+            font-weight: bold;
+            font-size:30px;
+        }
+        input {
+          width: 340px;
+          height: 30px;
+          position: relative;
+          background-color: #f9f7fc;
+          border: 0;
+          position: absolute;
+        }
+        .fa-magnifying-glass {
+          position: relative;
+          padding-left: 320px;
+          padding-top: 7px;
+        }
+
+        .user {
+          display: flex;
+          column-gap: 40px;
+          .signup {
+            a {
+              text-decoration: none;
+              color: black;
+            }
+          }
+        }
+        @media (max-width: 992px) {
+          flex-direction: column;
+          row-gap: 20px;
+        }
+      }
+      .snobella2 {
+        
+        padding: 10px;
+        nav {
+          padding-left: 85px;
+
+          ul {
+            display: flex;
+            column-gap: 40px;
+            il {
+              a {
+                text-decoration: none;
+                color: black;
+              }
+            }
+          }
+          @media (max-width: 992px) {
+            flex-direction: column;
+            padding-top: 20px;
+          }
+        }
+      }
+    }
+    .bag {
+      background-color: $silder-bg-color;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .shopnow {
+        h4 {
+          color: $text-red;
+          padding-bottom: 15px;
+
+        }
+        h1{
+            padding-bottom: 15px;
+            font-weight: bold;
+            font-size:30px;
+        }
+        pre{
+            padding-bottom: 25px;
+        }
+
+        button {
+          background-color: $new;
+          border: 0;
+          color: white;
+          padding: 10px;
+          border-radius: 20px;
+          
+        }
+      }
+      .bagimg {
+        img {
+          width: 642px;
+          height: 535px;
+        }
+      }
+      @media (max-width: 992px) {
+        flex-direction: column;
+            padding-top: 40px;
+      }
+    }
+    .payment {
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+    
+      @media (max-width: 992px) {
+        flex-direction: column;
+        row-gap: 20px;
+      }
+    }
+  }
+}
