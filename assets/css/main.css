@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,600;1,100;1,200;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 html,
 body,
 div,
@@ -138,4 +139,239 @@ table {
   max-width: 1400px;
   padding: 0 10%;
   margin: 0 auto;
+}
+
+.products .featured-products .featured-basket .basket .next-icon, .products .featured-products .featured-basket .basket .previcon, .products .bag-select .left-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #f5f5f5;
+  position: absolute;
+  background-color: #fff;
+  top: 55px;
+  right: 20px;
+}
+.products .featured-products .featured-basket .basket .next-icon img, .products .featured-products .featured-basket .basket .previcon img, .products .bag-select .left-arrow img {
+  width: 8px;
+  height: 16px;
+}
+
+.products {
+  padding-top: 80px;
+}
+.products .bestseller {
+  background-color: #FFF7F7;
+  width: 100%;
+}
+.products .bag-select {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.products .bag-select .bags {
+  box-sizing: border-box;
+  padding-left: 20px;
+  width: 75%;
+  margin: 0 auto;
+  height: 162px;
+  overflow: hidden;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+.products .bag-select .bags img {
+  width: 75%;
+  height: 80%;
+  margin-left: 10%;
+  transform: translate(30%, -9%);
+}
+.products .bag-select .bags p {
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.products .bag-select .left-arrow {
+  position: absolute;
+}
+@media only screen and (max-width: 992px) {
+  .products .bag-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .products .bag-select .left-arrow {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .products .bag-select {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .products .bag-select .left-arrow {
+    top: 45%;
+    right: 0;
+  }
+}
+.products .featured-products {
+  padding-top: 70px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.products .featured-products .featured-header {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.products .featured-products .featured-header h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.products .featured-products .featured-header span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.products .featured-products .featured-header span img {
+  width: 5px;
+  height: 10px;
+  padding-left: 10px;
+}
+.products .featured-products .featured-basket {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.products .featured-products .featured-basket .basket {
+  position: relative;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.products .featured-products .featured-basket .basket .like {
+  display: flex;
+  justify-content: space-between;
+}
+.products .featured-products .featured-basket .basket .like span {
+  font-family: "Poppins", sans-serif;
+  background-color: #43d167;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.products .featured-products .featured-basket .basket .like .discount {
+  background-color: #df4244;
+  padding: 5px 10px;
+}
+.products .featured-products .featured-basket .basket #only-like {
+  display: block;
+  text-align: end;
+}
+.products .featured-products .featured-basket .basket .previcon {
+  top: 50%;
+  left: -20px;
+}
+.products .featured-products .featured-basket .basket .next-icon {
+  top: 50%;
+  right: -20px;
+}
+.products .featured-products .featured-basket .bestseller-basket {
+  background-color: #fff;
+}
+.products .featured-products .featured-basket .basket-bag-featured {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.products .featured-products .featured-basket .rate {
+  padding: 20px 0;
+}
+.products .featured-products .featured-basket .product-caption {
+  width: 90%;
+  padding-bottom: 20px;
+}
+.products .featured-products .featured-basket .product-caption p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 170%;
+}
+.products .featured-products .featured-basket .value {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.products .featured-products .featured-basket .value .current-value {
+  font-weight: 600;
+  font-size: 20px;
+  color: #f75145;
+}
+.products .featured-products .featured-basket .value .recent-value {
+  font-size: 16px;
+  color: rgba(54, 54, 54, 0.75);
+  padding-left: 20px;
+}
+.products .featured-products .featured-basket .cardbtn {
+  display: flex;
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+.products .featured-products .featured-basket .cardbtn a {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  width: 90%;
+  border: 1px solid #212121;
+  border-radius: 8px;
+  background-color: transparent;
+  text-decoration: none;
+  color: #212121;
+  font-weight: 600;
+  font-size: 16px;
+}
+@media only screen and (max-width: 992px) {
+  .products .featured-products .featured-basket {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .products .featured-products .featured-basket .basket {
+    margin: auto;
+  }
+  .products .featured-products .featured-basket .basket .previcon {
+    display: none;
+  }
+  .products .featured-products .featured-basket .basket .next-icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .products .featured-products .featured-basket {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.products .discount-end {
+  margin-bottom: 128px;
+}
+.products .bestseller {
+  margin-top: 70px;
+  background-color: #FFF7F7;
+  width: 100%;
+  padding-bottom: 70px;
 }/*# sourceMappingURL=main.css.map */
