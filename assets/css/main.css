@@ -176,6 +176,13 @@ table {
   padding: 0px 12px 0px 0px;
   color: rgba(39, 49, 66, 0.75);
 }
+@media only screen and (max-width: 992px) {
+  #tittle-search .container .tittle-search {
+    flex-direction: column;
+    row-gap: 30px;
+    width: 100%;
+  }
+}
 
 #footer {
   background-color: #f7f7f9;
@@ -299,6 +306,27 @@ table {
   font-family: "Rubik", sans-serif;
 }
 
+@media only screen and (max-width: 992px) {
+  #footer .container .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  #footer .container .footer .footer-left {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  #footer .container .footer .footer-left .send-message-button {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer .container .footer .footer-right {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+    row-gap: 30px;
+  }
+}
 #end .container .end {
   padding: 22px 0 25px;
   display: flex;
@@ -318,4 +346,11 @@ table {
 }
 #end .container .end .social-media-icon img {
   color: #212121;
+}
+
+@media only screen and (max-width: 922px) {
+  #end .container .end {
+    flex-direction: column;
+    row-gap: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
