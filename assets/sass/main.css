@@ -141,9 +141,7 @@ table {
   margin: 0 auto;
 }
 
-.products .featured-products .featured-basket .basket .next-icon,
-.products .featured-products .featured-basket .basket .previcon,
-.products .bag-select .left-arrow {
+.products .featured-products .featured-basket .basket .next-icon, .products .featured-products .featured-basket .basket .previcon, .products .bag-select .left-arrow {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,9 +154,7 @@ table {
   top: 55px;
   right: 20px;
 }
-.products .featured-products .featured-basket .basket .next-icon img,
-.products .featured-products .featured-basket .basket .previcon img,
-.products .bag-select .left-arrow img {
+.products .featured-products .featured-basket .basket .next-icon img, .products .featured-products .featured-basket .basket .previcon img, .products .bag-select .left-arrow img {
   width: 8px;
   height: 16px;
 }
@@ -182,7 +178,7 @@ table {
 #header .container .telephone nav ul {
   display: flex;
   -moz-column-gap: 20px;
-  column-gap: 20px;
+       column-gap: 20px;
 }
 #header .container .telephone nav ul li {
   list-style: none;
@@ -226,7 +222,7 @@ table {
 #header .container .snobella .snobella1 .user {
   display: flex;
   -moz-column-gap: 40px;
-  column-gap: 40px;
+       column-gap: 40px;
 }
 #header .container .snobella .snobella1 .user .signup a {
   text-decoration: none;
@@ -247,7 +243,7 @@ table {
 #header .container .snobella .snobella2 nav ul {
   display: flex;
   -moz-column-gap: 40px;
-  column-gap: 40px;
+       column-gap: 40px;
 }
 #header .container .snobella .snobella2 nav ul il a {
   text-decoration: none;
@@ -414,7 +410,7 @@ table {
 #footer .container .footer .footer-right {
   display: flex;
   -moz-column-gap: 130px;
-  column-gap: 130px;
+       column-gap: 130px;
 }
 #footer .container .footer .footer-right .shop {
   display: flex;
@@ -511,7 +507,7 @@ table {
 #end .container .end .social-media-icon {
   display: flex;
   -moz-column-gap: 36.33px;
-  column-gap: 36.33px;
+       column-gap: 36.33px;
 }
 #end .container .end .social-media-icon img {
   color: #212121;
@@ -527,7 +523,7 @@ table {
   padding-top: 80px;
 }
 .products .bestseller {
-  background-color: #fff7f7;
+  background-color: #FFF7F7;
   width: 100%;
 }
 .products .bag-select {
@@ -735,7 +731,7 @@ table {
 }
 .products .bestseller {
   margin-top: 70px;
-  background-color: #fff7f7;
+  background-color: #FFF7F7;
   width: 100%;
   padding-bottom: 70px;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
